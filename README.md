@@ -10,7 +10,7 @@ This repository hosts the code for the `EmbeddedHunter` algorithm for large-scal
 
 If you write a scientific paper describing research that made use of this code, please consider citing the following paper:
 ~~~
-@inproceedings{qian2016scaling,
+@inproceedings{ash2017eh,
   title={Embedded Bandits for Large-Scale Black-Box Optimization},
   author={Abdullah Al-Dujaili and S. Suresh},
   booktitle={Thirty-First AAAI Conference on Artificial Intelligence (AAAI'17},
