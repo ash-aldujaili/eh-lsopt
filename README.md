@@ -5,6 +5,21 @@ This repository hosts the code for the `EmbeddedHunter` algorithm for large-scal
 
 # Contents
 
+1.  `Embedded Bandits for Large-Scale Black-Box Optimization.ipynb` : a notebook for a quick demonstration.
+2.  `run_aaai_demo.py`: a python script for running AAAI'17 paper experiments.
+3.  `Benchmark.py`: a python module for the large-scale problems used.
+4.  `Algorithms.py`: a python module implementing `RESOO`, `SRESOO`, and `EmbeddedHunter`.
+5.  `*.pickle`: a collection of pickle files saving the outcome of `run_aaai_demo.py`
+6.  `plot-table.tex`: a tex file to reproduce Figure 1 of the AAAI'17 paper.
+
+
+To run all the experiments (it will take around 6 days), `cd` to the directory and execute the following
+~~~
+>>python run_aaai_demo.py -1
+~~~
+Since all the `*.pickle` files are there, the above command will just create a folder, which has all the experiments' results in a list of tabulated files. With these files at hand, you can now compile `plot-table.tex` to create the pdf version of AAAI'17 paper's Figure 1.
+
+
 
 # Citation
 
