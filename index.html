@@ -34,10 +34,27 @@
         <h1>
 <a id="the-embeddedhunter-algorithm-for-large-scale-black-boxderivative-free-optimization" class="anchor" href="#the-embeddedhunter-algorithm-for-large-scale-black-boxderivative-free-optimization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>The EmbeddedHunter Algorithm for Large-Scale Black-Box/Derivative-Free Optimization</h1>
 
-<p>This repository hosts the code for the <code>EmbeddedHunter</code> algorithm for large-scale black-box optimization proposed in the <strong>Embedded Bandits for Large-Scale Black-Box Optimization</strong> paper, which is accepted at the thirty-first AAAI conference on artificial intelligence (<a href="http://www.aaai.org/Conferences/AAAI/2017/aaai17call.php">AAAI-17</a>).</p>
+<p>This repository hosts the code for the <code>EmbeddedHunter</code> algorithm for large-scale black-box optimization proposed in the <strong>Embedded Bandits for Large-Scale Black-Box Optimization</strong> <a href="https://arxiv.org/abs/1611.08773">paper</a>, which is accepted at the thirty-first AAAI conference on artificial intelligence (<a href="http://www.aaai.org/Conferences/AAAI/2017/aaai17call.php">AAAI-17</a>).</p>
 
 <h1>
 <a id="contents" class="anchor" href="#contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contents</h1>
+
+<ol>
+<li> <code>Embedded Bandits for Large-Scale Black-Box Optimization.ipynb</code> : a notebook for a quick demonstration.</li>
+<li> <code>run_aaai_demo.py</code>: a python script for running AAAI'17 paper experiments.</li>
+<li> <code>Benchmark.py</code>: a python module for the large-scale problems used.</li>
+<li> <code>Algorithms.py</code>: a python module implementing <code>RESOO</code>, <code>SRESOO</code>, and <code>EmbeddedHunter</code>.</li>
+<li> <code>*.pickle</code>: a collection of pickle files saving the outcome of <code>run_aaai_demo.py</code>
+</li>
+<li> <code>plot-table.tex</code>: a tex file to reproduce Figure 1 of the AAAI'17 paper.</li>
+</ol>
+
+<p>To run all the experiments (it will take around 6 days), <code>cd</code> to the directory and execute the following</p>
+
+<pre><code>&gt;&gt;python run_aaai_demo.py -1
+</code></pre>
+
+<p>Since all the <code>*.pickle</code> files are there, the above command will just create a folder, which has all the experiments' results in a list of tabulated files. With these files at hand, you can now compile <code>plot-table.tex</code> to create the pdf version of AAAI'17 paper's Figure 1.</p>
 
 <h1>
 <a id="citation" class="anchor" href="#citation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Citation</h1>
