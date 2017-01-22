@@ -1,6 +1,6 @@
 # The EmbeddedHunter Algorithm for Large-Scale Black-Box/Derivative-Free Optimization :zap:
 
-This repository hosts the code for the `EmbeddedHunter` algorithm for large-scale black-box optimization proposed in the **Embedded Bandits for Large-Scale Black-Box Optimization** [paper] (https://arxiv.org/abs/1611.08773), which is accepted at the thirty-first AAAI conference on artificial intelligence ([AAAI-17] (http://www.aaai.org/Conferences/AAAI/2017/aaai17call.php)).
+This repository hosts the code for the `EmbeddedHunter` algorithm for large-scale black-box optimization proposed in the **Embedded Bandits for Large-Scale Black-Box Optimization** [paper] (https://arxiv.org/abs/1611.08773), which is accepted at the thirty-first AAAI conference on artificial intelligence ([AAAI-17] (http://www.aaai.org/Conferences/AAAI/2017/aaai17call.php)). Poster can be found [here] (https://github.com/ash-aldujaili/eh-lsopt/raw/master/aaai-poster.pdf).
 
 
 # Contents
