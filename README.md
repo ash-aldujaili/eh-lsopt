@@ -1,6 +1,6 @@
 # The EmbeddedHunter Algorithm for Large-Scale Black-Box/Derivative-Free Optimization :zap:
 
-This repository hosts the code for the `EmbeddedHunter` algorithm for large-scale black-box optimization proposed in the **Embedded Bandits for Large-Scale Black-Box Optimization** [paper] (https://arxiv.org/abs/1611.08773), which is accepted at the thirty-first AAAI conference on artificial intelligence ([AAAI-17] (http://www.aaai.org/Conferences/AAAI/2017/aaai17call.php)). Poster can be found [here] (https://github.com/ash-aldujaili/eh-lsopt/raw/master/aaai-poster.pdf).
+This repository hosts the code for the `EmbeddedHunter` algorithm for large-scale black-box optimization proposed in the **Embedded Bandits for Large-Scale Black-Box Optimization** [paper](https://arxiv.org/abs/1611.08773), which is accepted at the thirty-first AAAI conference on artificial intelligence ([AAAI-17](http://www.aaai.org/Conferences/AAAI/2017/aaai17call.php)). Poster can be found [here](https://github.com/ash-aldujaili/eh-lsopt/raw/master/aaai-poster.pdf).
 
 
 # Contents
@@ -14,9 +14,9 @@ This repository hosts the code for the `EmbeddedHunter` algorithm for large-scal
 
 
 To run all the experiments (it will take around 6 days), `cd` to the directory and execute the following
-~~~
+```
 >>python run_aaai_demo.py -1
-~~~
+```
 Since all the `*.pickle` files are there, the above command will just create a folder, which has all the experiments' results in a list of tabulated files. With these files at hand, you can now compile `plot-table.tex` to create the pdf version of AAAI'17 paper's Figure 1.
 
 
@@ -24,12 +24,11 @@ Since all the `*.pickle` files are there, the above command will just create a f
 # Citation
 
 If you write a scientific paper describing research that made use of this code, please consider citing the following paper:
-~~~
+```
 @inproceedings{ash2017eh,
   title={Embedded Bandits for Large-Scale Black-Box Optimization},
   author={Abdullah Al-Dujaili and S. Suresh},
   booktitle={Thirty-First AAAI Conference on Artificial Intelligence (AAAI'17},
   year={2017}
 }
-~~~
-
+```
